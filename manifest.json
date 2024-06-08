@@ -1,0 +1,16 @@
+{
+    "name": "AtCoder (paruma184)",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "AtCoder 用の拡張機能",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://atcoder.jp/contests/abc*/tasks/*"
+            ],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
